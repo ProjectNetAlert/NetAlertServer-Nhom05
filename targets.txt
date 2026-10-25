@@ -1,0 +1,5 @@
+googole;8.8.8.8;PING;0
+máy chủ;192.168.70.1;PING;0
+google;8.8.8.8;TCP;443
+tùng;10.242.16.180;PING;0
+tunggg;10.57.159.75;PING;0

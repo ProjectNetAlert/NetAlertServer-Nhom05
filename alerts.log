@@ -1,0 +1,25 @@
+[2026-10-21 15:57:26] DOWN | máy chủ wed (10.147.17.20 - TCP) | client: LAPTOP-0EGQQ876
+[2026-10-21 16:14:49] DOWN | trung (192.168.11 - PING) | client: LAPTOP-0EGQQ876
+[2026-10-21 16:38:22] DOWN | trung (111 - TCP) | latency: - ms | client: LAPTOP-0EGQQ876
+[2026-10-21 16:39:25] DOWN | trung (111 - TCP) | latency: - ms | client: LAPTOP-0EGQQ876
+[2026-10-21 16:40:49] DOWN | googole (8.8.8.8 - PING) | latency: - ms | client: LAPTOP-0EGQQ876
+[2026-10-21 16:41:40] UP | googole (8.8.8.8 - PING) | latency: 51.0 ms | client: LAPTOP-0EGQQ876 | Thời gian gián đoạn: 51 giây
+[2026-10-21 16:42:50] DOWN | trung (111 - TCP) | latency: - ms | client: LAPTOP-0EGQQ876
+[2026-10-21 17:17:04] DOWN | trung (111 - TCP) | latency: - ms | client: LAPTOP-0EGQQ876
+[2026-10-21 17:17:04] DOWN | tùng (42.116.253.196 - PING) | latency: - ms | client: LAPTOP-0EGQQ876
+[2026-10-21 17:17:58] DOWN | tùng (42.116.253.196 - PING) | latency: - ms | client: LAPTOP-0EGQQ876
+[2026-10-21 17:17:58] DOWN | gg (8.8.8.8 - TCP) | latency: - ms | client: LAPTOP-0EGQQ876
+[2026-10-21 17:18:26] DOWN | tùng (42.116.253.196 - PING) | latency: - ms | client: LAPTOP-0EGQQ876
+[2026-10-21 17:18:26] DOWN | gg (8.8.8.8 - TCP) | latency: - ms | client: LAPTOP-0EGQQ876
+[2026-10-21 17:19:48] DOWN | tùng (42.116.253.196 - PING) | latency: - ms | client: LAPTOP-0EGQQ876
+[2026-10-21 17:23:46] DOWN | tùng (42.116.253.196 - PING) | latency: - ms | client: LAPTOP-0EGQQ876
+[2026-10-21 17:24:24] DOWN | tùng (42.116.253.196 - PING) | latency: - ms | client: LAPTOP-0EGQQ876
+[2026-10-21 17:24:24] DOWN | trung (123.21.206.173 - PING) | latency: - ms | client: LAPTOP-0EGQQ876
+[2026-10-21 17:25:42] DOWN | tùng (42.116.253.196 - PING) | latency: - ms | client: LAPTOP-0EGQQ876
+[2026-10-21 17:26:00] DOWN | tùng (42.116.253.196 - PING) | latency: - ms | client: LAPTOP-0EGQQ876
+[2026-10-21 17:26:00] DOWN | tungg (10.25.144.75 - PING) | latency: - ms | client: LAPTOP-0EGQQ876
+[2026-10-21 17:41:20] DOWN | Server - TCP heartbeat (10.147.17.10 - TCP) | latency: - ms | client: LAPTOP-IJ2KIC85
+[2026-10-21 17:41:20] DOWN | aaa (192.168.70.1 - PING) | latency: - ms | client: LAPTOP-IJ2KIC85
+[2026-10-21 17:45:12] DOWN | Server - TCP heartbeat (10.147.17.10 - TCP) | latency: - ms | client: LAPTOP-IJ2KIC85
+[2026-10-21 17:45:28] DOWN | trungggg (10.57.159.180 - PING) | latency: - ms | client: LAPTOP-IJ2KIC85
+[2026-10-21 17:46:00] UP | trungggg (10.57.159.180 - PING) | latency: 11.0 ms | client: LAPTOP-IJ2KIC85 | Thời gian gián đoạn: 32 giây
