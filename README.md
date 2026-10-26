@@ -271,3 +271,6 @@ Cần 2 máy cùng mạng ZeroTier: **máy S** chạy Server, **máy C** chạy 
 | `src/netalertserver/ServerMain.java` | Server: 2 cổng mạng, xử lý các loại tin, phát hiện Client OFFLINE, 3 tab giao diện, Cài đặt |
 | `src/netalertserver/ClientMain.java` | Client: kiểm tra Ping/TCP song song, cảnh báo, gửi Gmail qua SMTP/SSL, gửi tin về Server, thống kê |
 | `src/netalertserver/UiKit.java` | Thành phần giao diện dùng chung: thẻ số liệu, bảng tô dòng DOWN, hộp cảnh báo, biểu đồ độ trễ, xuất CSV |
+
+## Tài liệu
+- [Cập nhật bảng đóng góp](CapNhatBangDongGop.docx)
