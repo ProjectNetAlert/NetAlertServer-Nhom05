@@ -272,5 +272,24 @@ Cần 2 máy cùng mạng ZeroTier: **máy S** chạy Server, **máy C** chạy 
 | `src/netalertserver/ClientMain.java` | Client: kiểm tra Ping/TCP song song, cảnh báo, gửi Gmail qua SMTP/SSL, gửi tin về Server, thống kê |
 | `src/netalertserver/UiKit.java` | Thành phần giao diện dùng chung: thẻ số liệu, bảng tô dòng DOWN, hộp cảnh báo, biểu đồ độ trễ, xuất CSV |
 
-## Tài liệu
-- [Cập nhật bảng đóng góp](CapNhatBangDongGop.docx)
+## Bảng đóng góp của thành viên
+
+| MSSV | Họ và Tên | Công việc đã thực hiện | Merge Requests |
+|------|-----------|------------------------|----------------|
+| 2380602480 | Hồ Thanh Tùng | Xây dựng Server (ServerMain): mở cổng heartbeat 9000 và cổng báo cáo 9001, xử lý kết nối TCP, nhận tin STATUS/SNAPSHOT/BYE, kiểm tra mã bí mật (DENIED), quản lý trạng thái Client ONLINE/OFFLINE/ĐÃ DỪNG. | !1, !2 |
+| 2380612620 | Lê Minh Đức | Xây dựng lõi Client (ClientMain): kiểm tra Ping/TCP song song, đo độ trễ và tỉ lệ mất gói, phát hiện DOWN/UP theo ngưỡng lỗi liên tiếp, gửi SNAPSHOT/BYE về Server, hàng đợi gửi lại báo cáo, đọc/ghi client.properties và targets.txt. | !3, !4 |
+| 2380602368 | Nguyễn Quốc Trung | Thiết kế giao diện Java Swing cho Client và Server: các tab (Giám sát, Thống kê, Cấu hình, Trạng thái hiện tại, Client), bảng trạng thái tô đỏ dòng DOWN, dialog thêm/sửa/xóa máy giám sát, biểu đồ độ trễ, thẻ số liệu (UiKit), màn hình chọn Server/Client. | !5, !6 |
+| 2380601957 | Nguyễn Tấn Tài | Xây dựng chức năng cảnh báo DOWN/UP: hộp cảnh báo, gửi email Gmail qua SMTP/SSL, quản lý nhật ký cảnh báo (alerts.log, lọc, tìm kiếm), xuất CSV, hộp Cài đặt Server, kiểm thử và viết tài liệu hướng dẫn (README, kịch bản demo). | !7, !8 |
+
+## Nội dung mỗi Merge Request
+
+| MR | Người thực hiện | Nội dung |
+|----|-----------------|----------|
+| !1 | Hồ Thanh Tùng | Hai cổng mạng của Server và `handleConnection/Alert/Snapshot/Bye`. |
+| !2 | Hồ Thanh Tùng | `ClientInfo`, `applySnapshot()`, `checkClients()` và đọc/ghi `server.properties`. |
+| !3 | Lê Minh Đức | `Target`, vòng `cycle()`, `checkTcp()`, `checkPing()` và lưu/đọc cấu hình, danh sách máy. |
+| !4 | Lê Minh Đức | `raiseAlert()`, `flushReports()`, `buildSnapshot()`, `sendReport()`, `sendBye()`. |
+| !5 | Nguyễn Quốc Trung | Giao diện Client gồm `buildUi()`, tab Giám sát, Thống kê, Cấu hình, dialog thêm/sửa/xóa. |
+| !6 | Nguyễn Quốc Trung | Giao diện Server (3 tab) và `UiKit` (`LatencyChart`, `StatusTable`, `StatCard`, `statusBar`), cùng `NetAlertServer`. |
+| !7 | Nguyễn Tấn Tài | `AlertBox`, `raiseMail()`, `sendNotice()`, `sendGmail()`, tab Email. |
+| !8 | Nguyễn Tấn Tài | Nhật ký cảnh báo, `exportCsv()`, `showSettings()`, kiểm thử tích hợp và README. |
